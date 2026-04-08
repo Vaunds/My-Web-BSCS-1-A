@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Upload</title>
+  <style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f4f7f6;
+  color: #333;
+  line-height: 1.6;
+}
+
+nav {
+  padding: 1rem 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+
+main {
+  max-width: 300px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+main section {
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  margin-top: 30px;
+}
+
+main section h2 {
+  text-align: center;
+}
+
+main section button {
+  background: indigo;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 15px;
+  padding: 4px 10px;
+  margin: 4px 0;
+  transition: 0.1s;
+}
+
+main section button:hover {
+  color: indigo;
+  background: white;
+}
+
+main section .file {
+  color: white;
+}
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="container">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="quiz.html">Quiz</a></li>
+        <li><a href="lab.html">Lab</a></li>
+        <li><a href="exam.html">Exam</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="upload.html">Upload</a></li>
+      </ul>
+    </div>
+  </nav>
+  
+  <main>
+    <section class="quiz">
+      <form action="">
+        <h2>Quiz Upload</h2>
+        <input type="text" placeholder="Title" required>
+        <input type="file" accept="image/*" required><br>
+        <button>Submit</button>
+      </form>
+    </section>
+    
+    <section class="lab">
+      <form action="">
+        <h2>Lab Upload</h2>
+        <input type="text" placeholder="Title" required>
+        <input type="file" accept="image/*" required><br>
+        <button>Submit</button>
+      </form>
+    </section>
+    
+    <section class="exam">
+      <form action="">
+        <h2>Exam Upload</h2>
+        <input type="text" placeholder="Title" required class>
+        <input type="file" accept="image/*" required><br>
+        <button>Submit</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>

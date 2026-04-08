@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Portfolio | Saldo, Albert C.</title>
+  <style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f4f7f6;
+  color: #333;
+  line-height: 1.6;
+}
+
+nav {
+  padding: 1rem 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+
+main {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.profile-card {
+  background: #6082B6;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  background-color: #ddd;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.profile-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.info h1 {
+  font-size: 1.8rem;
+  color: #2c3e50;
+}
+
+.info h2 {
+  font-size: 1.1rem;
+  color: #3498db;
+  margin-bottom: 15px;
+}
+
+.about-me h3 {
+  margin-bottom: 8px;
+  border-bottom: 2px solid #eee;
+  display: inline-block;
+}
+
+.skills, .project {
+  background: #6082B6;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+
+.skills span {
+  display: inline-block;
+  color: white;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  margin: 5px 2px;
+}
+
+h3 {
+  margin-bottom: 15px;
+  color: #2c3e50;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="container">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="quiz.html">Quiz</a></li>
+        <li><a href="lab.html">Lab</a></li>
+        <li><a href="exam.html">Exam</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="upload.html">Upload</a></li>
+      </ul>
+    </div>
+  </nav>
+  
+  <main>
+    <div class="profile-card">
+      <div class="profile-image">
+        <img src="pic/my-pic.jpg" alt="Saldo, Albert C.">
+        </div>
+        <div class="info">
+          <h1>Saldo, Albert C.</h1>
+          <h2>CS 1-A</h2>
+          <div class="about-me">
+            <h3>About me</h3>
+            <p>I like to read manhwa and play online games</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="bottom-row">
+      <section class="skills">
+        <h3>Skills</h3>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JS</span>
+        <span>C++</span>
+      </section>
+      <section class="project">
+        <h3>Project</h3>
+        <p>Web Portfolio</p>
+      </section>
+    </div>
+  </main>
+</body>
+</html>
